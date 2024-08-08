@@ -1939,6 +1939,159 @@
 				)
 			)
 		)
+		(symbol "easyeda2kicad:PZ254V-11-04P_C2691448"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PZ254V-11-04P_C2691448"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:HDR-TH_4P-P2.54-V-M"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2691448"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PZ254V-11-04P_C2691448_0_1"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "easyeda2kicad:TP4056_C725790"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2389,6 +2542,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2535,6 +2808,12 @@
 		(uuid "338944e6-ebd8-4b0a-94bd-e53939c3c3c7")
 	)
 	(junction
+		(at 398.78 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "391097e2-8e67-485a-b791-85cdb4fd8907")
+	)
+	(junction
 		(at 137.16 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2545,6 +2824,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "416afc1f-d3c7-4971-a652-812565017246")
+	)
+	(junction
+		(at 328.93 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a299250-e691-445c-aad6-e35a5042aada")
+	)
+	(junction
+		(at 398.78 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "550f234f-b8bc-417b-81a0-c20fa5d70202")
 	)
 	(junction
 		(at 220.98 68.58)
@@ -2828,6 +3119,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 120.65) (xy 330.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2821db7d-419a-4989-8834-f2bb52482584")
+	)
+	(wire
+		(pts
 			(xy 55.88 25.4) (xy 64.77 25.4)
 		)
 		(stroke
@@ -2945,6 +3246,16 @@
 			(type default)
 		)
 		(uuid "3ff3fff3-92f2-449e-9a96-2efda9487518")
+	)
+	(wire
+		(pts
+			(xy 369.57 102.87) (xy 398.78 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a77b30-ac94-4fd5-a471-54a2ff8aa190")
 	)
 	(wire
 		(pts
@@ -3098,6 +3409,26 @@
 	)
 	(wire
 		(pts
+			(xy 398.78 88.9) (xy 398.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da83bab-efaa-4486-a46b-8afb3364cb0d")
+	)
+	(wire
+		(pts
+			(xy 398.78 107.95) (xy 398.78 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6faf9d57-fe54-4bbd-aad1-e2bdda5df2fc")
+	)
+	(wire
+		(pts
 			(xy 238.76 31.75) (xy 256.54 31.75)
 		)
 		(stroke
@@ -3135,6 +3466,16 @@
 			(type default)
 		)
 		(uuid "80a2ddf6-e946-46c1-9dad-0a7e273dcb00")
+	)
+	(wire
+		(pts
+			(xy 328.93 16.51) (xy 398.78 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8227f49d-a346-4bd6-809b-659d2b37ed44")
 	)
 	(wire
 		(pts
@@ -3198,6 +3539,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 88.9) (xy 398.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ead2741-4f48-4b8e-ac8c-99c0a1f877af")
+	)
+	(wire
+		(pts
 			(xy 179.07 39.37) (xy 173.99 39.37)
 		)
 		(stroke
@@ -3205,6 +3556,16 @@
 			(type default)
 		)
 		(uuid "907675fb-dc77-40d0-9a0b-1d74b636e848")
+	)
+	(wire
+		(pts
+			(xy 336.55 120.65) (xy 330.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e5c8d6-2768-40f1-8459-93f9c0a4f79d")
 	)
 	(wire
 		(pts
@@ -3338,6 +3699,16 @@
 	)
 	(wire
 		(pts
+			(xy 398.78 16.51) (xy 398.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3989cb-2812-42e5-87bf-cce6fb693035")
+	)
+	(wire
+		(pts
 			(xy 30.48 55.88) (xy 30.48 66.04)
 		)
 		(stroke
@@ -3365,6 +3736,16 @@
 			(type default)
 		)
 		(uuid "c28da283-7f2a-4835-9af9-40d616fd7522")
+	)
+	(wire
+		(pts
+			(xy 369.57 120.65) (xy 398.78 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c330d2b4-dc2b-44b6-917f-20e0dd10a77b")
 	)
 	(wire
 		(pts
@@ -3475,6 +3856,16 @@
 			(type default)
 		)
 		(uuid "dfabbd81-873f-4c97-bb9d-8416782dad8b")
+	)
+	(wire
+		(pts
+			(xy 369.57 105.41) (xy 398.78 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2941434-9542-42e2-bd7e-c272ad847391")
 	)
 	(wire
 		(pts
@@ -3693,7 +4084,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:AI-WB2-12F")
-		(at 367.03 44.45 0)
+		(at 353.06 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3702,7 +4093,7 @@
 		(fields_autoplaced yes)
 		(uuid "045d39da-4091-4500-937c-47673052b7be")
 		(property "Reference" "U3"
-			(at 367.03 22.86 0)
+			(at 353.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +4101,7 @@
 			)
 		)
 		(property "Value" "AI-WB2-12F"
-			(at 367.03 25.4 0)
+			(at 353.06 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,7 +4109,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:COMM-SMD_22P-L24.0-W16.0-P2.00_ZIGBEE"
-			(at 367.03 67.31 0)
+			(at 353.06 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,7 +4118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 367.03 44.45 0)
+			(at 353.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,7 +4127,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 367.03 44.45 0)
+			(at 353.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +4136,7 @@
 			)
 		)
 		(property "LCSC Part" "C5187541"
-			(at 367.03 69.85 0)
+			(at 353.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,6 +4519,72 @@
 			(project ""
 				(path "/499b7f21-0212-4c70-b513-805f31ce0850"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 328.93 16.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27823177-f109-49e8-8995-2a3778503f01")
+		(property "Reference" "#PWR07"
+			(at 328.93 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 328.93 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 328.93 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1bf15bb-f773-438b-8278-5d2c4812579e")
+		)
+		(instances
+			(project ""
+				(path "/499b7f21-0212-4c70-b513-805f31ce0850"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4585,6 +5042,72 @@
 			(project "led-strip-esphome"
 				(path "/499b7f21-0212-4c70-b513-805f31ce0850"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 398.78 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "527f70b9-9e85-4762-9773-40de2d11c842")
+		(property "Reference" "#PWR08"
+			(at 398.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 398.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 398.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 398.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ef43118-f76c-4d1e-aaa8-d3790040a1d5")
+		)
+		(instances
+			(project ""
+				(path "/499b7f21-0212-4c70-b513-805f31ce0850"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5804,6 +6327,91 @@
 			(project ""
 				(path "/499b7f21-0212-4c70-b513-805f31ce0850"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:PZ254V-11-04P_C2691448")
+		(at 403.86 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d82d80b4-51b4-45e6-b719-8ccaaa57975e")
+		(property "Reference" "H1"
+			(at 407.67 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PZ254V-11-04P_C2691448"
+			(at 407.67 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:HDR-TH_4P-P2.54-V-M"
+			(at 403.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2691448"
+			(at 403.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b97af59e-2ec0-4c55-8e1f-b4cee73f636c")
+		)
+		(pin "1"
+			(uuid "de3d0200-f82e-4412-bf50-f252ea75cbaf")
+		)
+		(pin "3"
+			(uuid "5ed2da48-cf8c-4cba-a882-5c9069d19d43")
+		)
+		(pin "4"
+			(uuid "3a5e2f2f-d735-4014-80fc-63dcd18da201")
+		)
+		(instances
+			(project ""
+				(path "/499b7f21-0212-4c70-b513-805f31ce0850"
+					(reference "H1")
 					(unit 1)
 				)
 			)
