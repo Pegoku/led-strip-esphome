@@ -2625,6 +2625,221 @@
 				)
 			)
 		)
+		(symbol "easyeda2kicad:TS-1002S-04526C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS-1002S-04526C"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1002S-04526C_C455109.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C455109"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS-1002S-04526C_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.76 1.27) (xy -0.76 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.52) (xy 0 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.76 0.25) (xy -1.02 0.25) (xy -1.02 0) (xy -0.76 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "easyeda2kicad:TYPE-C6P(073)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4230,6 +4445,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 133.35) (xy 381 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b189244-ca40-455e-99a5-034a59b663d4")
+	)
+	(wire
+		(pts
 			(xy 251.46 120.65) (xy 251.46 116.84)
 		)
 		(stroke
@@ -4880,6 +5105,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 118.11) (xy 375.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd66be5c-9efc-4772-be6c-8afb2dfaa7d2")
+	)
+	(wire
+		(pts
 			(xy 379.73 118.11) (xy 398.78 118.11)
 		)
 		(stroke
@@ -4947,6 +5182,16 @@
 			(type default)
 		)
 		(uuid "d6473015-41c5-4f5b-a58d-451665ed6790")
+	)
+	(wire
+		(pts
+			(xy 386.08 133.35) (xy 398.78 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da12c2e2-0ca2-479c-aa30-4f7269fff29e")
 	)
 	(wire
 		(pts
@@ -5030,6 +5275,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 118.11) (xy 375.92 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e340a9af-0193-4cf5-9398-e63a1ba375c1")
+	)
+	(wire
+		(pts
 			(xy 218.44 46.99) (xy 210.82 46.99)
 		)
 		(stroke
@@ -5057,6 +5312,16 @@
 			(type default)
 		)
 		(uuid "e7611b5b-2f72-490e-adc9-d8fada2ec293")
+	)
+	(wire
+		(pts
+			(xy 398.78 133.35) (xy 398.78 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83f9519-3977-4e8b-97ea-0c1d6e39d7d1")
 	)
 	(wire
 		(pts
@@ -7530,6 +7795,91 @@
 			(project "led-strip-esphome"
 				(path "/499b7f21-0212-4c70-b513-805f31ce0850"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TS-1002S-04526C")
+		(at 383.54 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d0ab1e5-27a7-40d0-ab41-c9306ab6e694")
+		(property "Reference" "SW1"
+			(at 387.35 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS-1002S-04526C"
+			(at 387.35 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2"
+			(at 373.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1002S-04526C_C455109.html"
+			(at 370.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 383.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C455109"
+			(at 368.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ffd20166-5224-4fb5-a9f8-597db2f7639f")
+		)
+		(pin "1"
+			(uuid "4a32e67c-4be0-49b2-912c-1a23ef3bdf7a")
+		)
+		(pin "3"
+			(uuid "0d98e332-3bab-4ef4-bf25-d4b9881a021f")
+		)
+		(pin "4"
+			(uuid "7cf239d5-cd86-4e4f-a8ca-a81d3a150d3c")
+		)
+		(instances
+			(project ""
+				(path "/499b7f21-0212-4c70-b513-805f31ce0850"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
